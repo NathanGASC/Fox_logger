@@ -1,0 +1,46 @@
+{
+  "_args": [
+    [
+      "@nathangasc/fox_logger@2.0.11",
+      "C:\\Users\\nathangasc\\Desktop\\perso\\_ProjectSample"
+    ]
+  ],
+  "_from": "@nathangasc/fox_logger@2.0.11",
+  "_id": "@nathangasc/fox_logger@2.0.11",
+  "_inBundle": false,
+  "_integrity": "sha512-NdK2omtvlyyxS4StaF5oaTw3Ms4ZdjsvQT30AQpZ72YruiU6Mq2wzgEVUshcwFVnvAi5jpInXJivEdsEESELNw==",
+  "_location": "/@nathangasc/fox_logger",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@nathangasc/fox_logger@2.0.11",
+    "name": "@nathangasc/fox_logger",
+    "escapedName": "@nathangasc%2ffox_logger",
+    "scope": "@nathangasc",
+    "rawSpec": "2.0.11",
+    "saveSpec": null,
+    "fetchSpec": "2.0.11"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@nathangasc/fox_logger/-/fox_logger-2.0.11.tgz",
+  "_spec": "2.0.11",
+  "_where": "C:\\Users\\nathangasc\\Desktop\\perso\\_ProjectSample",
+  "description": "Fox logger is a module to do log with namespaces (ex: here the API namespace log -> \"[11:23:52] API : GET request on /\").\r You will be able to disable log for defined namespaces or change log levels for every namespaces to hide error, log, info, debug or warning.",
+  "devDependencies": {
+    "ts-loader": "9.2.6",
+    "typescript": "4.4.4",
+    "webpack": "^5.60.0",
+    "webpack-cli": "4.9.1"
+  },
+  "license": "MIT",
+  "main": "./dist/main.js",
+  "name": "@nathangasc/fox_logger",
+  "scripts": {
+    "build": "webpack"
+  },
+  "types": "./dist/",
+  "version": "2.0.11"
+}
