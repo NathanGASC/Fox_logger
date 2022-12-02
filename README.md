@@ -4,7 +4,7 @@ Fox logger is a module to do log with namespaces (ex: here the API namespace log
 You will be able to disable log for defined namespaces or change log levels for every namespaces to hide error, log, info, debug or warning. You will also
 be able to format the logs.
 
-This module suppor typescript (TS).
+This module support typescript (TS).
 
 ## How to use?
 
