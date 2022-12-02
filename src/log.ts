@@ -29,7 +29,7 @@ class _Logger<T> {
           get: function (...msg: any[]) {
             if (config.options.isLogged.log && config.namespaces[namespace].isLogged) {
               const template = _this.template(config,namespace);
-              return window.console.log.bind(window.console, template, ...msg);
+              return window.console[level].bind(window.console, template, ...msg);
             }else{
               return ()=>{}
             }
@@ -40,7 +40,7 @@ class _Logger<T> {
           value: function (...msg: any[]) {
             if (config.options.isLogged.log && config.namespaces[namespace].isLogged) {
               const template = _this.template(config,namespace);
-              console.log(template, ...msg);
+              console[level](template, ...msg);
             }else{
               return ()=>{}
             }
