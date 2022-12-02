@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createLogger\": () => (/* reexport safe */ _log__WEBPACK_IMPORTED_MODULE_0__.createLogger)\n/* harmony export */ });\n/* harmony import */ var _log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./log */ \"./src/log.ts\");\n\r\n\r\nconst config = {\r\n    options: {\r\n        format: \"[{{h}}:{{m}}:{{s}}] {{namespace}} :\",\r\n        isLogged: {\r\n            debug: true,\r\n            log: true,\r\n            error: true,\r\n            warn: true,\r\n            info: true,\r\n        },\r\n    },\r\n    namespaces: {\r\n        default: {\r\n            isLogged: true,\r\n        },\r\n    },\r\n};\r\nconst logger = (0,_log__WEBPACK_IMPORTED_MODULE_0__.createLogger)(config);\r\nlogger.default.log(\"Hello world, here a smart fox log\");\r\n\n\n//# sourceURL=webpack://@nathangasc/fox_logger/./src/index.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createLogger\": () => (/* reexport safe */ _log__WEBPACK_IMPORTED_MODULE_0__.createLogger)\n/* harmony export */ });\n/* harmony import */ var _log__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./log */ \"./src/log.ts\");\n\r\n\r\n\n\n//# sourceURL=webpack://@nathangasc/fox_logger/./src/index.ts?");
 
 /***/ }),
 
